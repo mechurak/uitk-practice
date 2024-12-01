@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:Label text="Label" name="pos-label">
+            <Bindings>
+                <engine:DataBinding property="text" data-source-path="position" data-source="project://database/Assets/Model/MainCube.asset?fileID=11400000&amp;guid=25ef3d81470484822bd797336de73077&amp;type=2#MainCube" binding-mode="ToTarget" />
+            </Bindings>
+        </engine:Label>
+        <engine:TextField name="pos-textfield" placeholder-text="help text" data-source="project://database/Assets/Model/MainCube.asset?fileID=11400000&amp;guid=25ef3d81470484822bd797336de73077&amp;type=2#MainCube" data-source-path="position" />
+    </engine:VisualElement>
+</engine:UXML>
